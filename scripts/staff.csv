@@ -1,0 +1,5 @@
+name,email,role,group
+Barry Blewitt,barry@blewittagain.test,user,Attorney_Only
+Paula Paralegal,paula@blewittagain.test,user,Case_Staff
+Rhonda Reception,rhonda@blewittagain.test,user,Front_Desk
+Ivan Ignition,ivan@blewittagain.test,user,Billing

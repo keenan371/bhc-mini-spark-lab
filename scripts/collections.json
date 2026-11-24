@@ -1,0 +1,16 @@
+{
+  "base_model": "qwen2.5:3b",
+  "collections": {
+    "General":       {"folder": "sample-data/general",       "read": ["Attorney_Only", "Case_Staff", "Front_Desk", "Billing"]},
+    "Case Files":    {"folder": "sample-data/case-files",    "read": ["Attorney_Only", "Case_Staff"]},
+    "Billing":       {"folder": "sample-data/billing",       "read": ["Attorney_Only", "Billing"]},
+    "Attorney Only": {"folder": "sample-data/attorney-only", "read": ["Attorney_Only"]}
+  },
+  "assistants": {
+    "blewitt-attorney":   {"name": "Blewitt Attorney Assistant",   "group": "Attorney_Only", "knowledge": ["General", "Case Files", "Billing", "Attorney Only"]},
+    "blewitt-case-staff": {"name": "Blewitt Case Staff Assistant", "group": "Case_Staff",    "knowledge": ["General", "Case Files"]},
+    "blewitt-front-desk": {"name": "Blewitt Front Desk Assistant", "group": "Front_Desk",    "knowledge": ["General"]},
+    "blewitt-billing":    {"name": "Blewitt Billing Assistant",    "group": "Billing",       "knowledge": ["General", "Billing"]}
+  },
+  "system_prompt": "You are the private office assistant for Blewitt, Again & Associates LLP, a DUI defense firm. Answer only from the firm documents you are given. If the answer is not in those documents, say: I don't have access to that information. Keep answers short and professional."
+}

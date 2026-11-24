@@ -1,0 +1,15 @@
+ALLOWED: front desk reads general
+Q: A new caller was arrested 3 days ago for DUI. What do I tell them and what should they bring?
+---
+Chat Conversation
+
+A new caller was arrested 3 days ago for DUI. What do I tell them and what should they bring?
+
+Nov 24, 5:14 PM
+Blewitt Front Desk Assistant
+
+For a new DUI arrest, the caller should be informed that there may be a short deadline to challenge a license suspension after the arrest. They should be flagged as urgent and added to the attorney's calendar right away. They need to bring the DUI citation(s), the Notice of Suspension, bond/jail release paperwork, any breath or blood test printout they were given, insurance information if there was a crash, names of witnesses (friends, bartender, rideshare receipts), and proof of employment if they need to drive for work. 
+New_Client_Inta...cklist.txt
+
+7 Sources
+Nov 24, 5:14 PM

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" font-family="JetBrains Mono, Consolas, monospace"><rect width="1200" height="420" fill="#000"/>
+<text x="40" y="50" fill="#2f8cff" font-size="22">blewitt@lawfirm:~$ time ./ask</text>
+<text x="40" y="95" fill="#fff" font-size="30" font-weight="800">FIRST ANSWER: 340 SECONDS. AFTER TUNING: ~11.</text>
+<text x="40" y="188" fill="#fff" font-size="22" font-weight="800">Before</text><rect x="200" y="150" width="800.0" height="56" fill="#ff3b3b"/><text x="1016.0" y="188" fill="#ff3b3b" font-size="24" font-weight="800">340 s</text><text x="200" y="234" fill="#aaa" font-size="16">AI inside the VM, 2 models fighting for memory</text>
+<text x="40" y="308" fill="#fff" font-size="22" font-weight="800">After</text><rect x="200" y="270" width="25.882352941176475" height="56" fill="#2bff88"/><text x="241.88235294117646" y="308" fill="#2bff88" font-size="24" font-weight="800">11 s</text><text x="200" y="354" fill="#aaa" font-size="16">AI engine moved to the laptop, prompts cleaned up</text>
+<text x="40" y="400" fill="#2f8cff" font-size="16">Lesson: hardware matters. A real AI box is much faster than a test laptop.</text></svg>

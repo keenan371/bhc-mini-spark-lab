@@ -1,0 +1,14 @@
+ALLOWED: billing reads billing
+Q: Who still owes the firm money and when is the next payment due?
+---
+Chat Conversation
+
+Who still owes the firm money and when is the next payment due?
+
+Nov 24, 5:13 PM
+Blewitt Billing Assistant
+
+Chad Swervington still owes the firm $2,250, and the next payment is due on December 1.
+
+11 Sources
+Nov 24, 5:13 PM

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="JetBrains Mono, Consolas, monospace">
+<rect width="1200" height="560" fill="#000"/>
+<text x="40" y="50" fill="#2f8cff" font-size="22">blewitt@lawfirm:~$ cat architecture.txt</text>
+<text x="40" y="95" fill="#fff" font-size="30" font-weight="800">HOW THE MINI SPARK LAB IS BUILT</text>
+<g fill="none" stroke="#fff" stroke-width="3">
+<rect x="40" y="130" width="1120" height="390" rx="16" stroke-dasharray="10 8"/>
+<rect x="80" y="200" width="300" height="270" rx="12"/>
+<rect x="450" y="200" width="300" height="270" rx="12" stroke="#2f8cff"/>
+<rect x="820" y="200" width="300" height="270" rx="12"/>
+</g>
+<text x="60" y="165" fill="#aaa" font-size="18">WINDOWS LAPTOP (plays the role of the private AI box)</text>
+<text x="100" y="240" fill="#fff" font-size="22" font-weight="800">STAFF BROWSERS</text>
+<text x="100" y="285" fill="#aaa" font-size="17">Barry   (attorney)</text>
+<text x="100" y="315" fill="#aaa" font-size="17">Paula   (case staff)</text>
+<text x="100" y="345" fill="#aaa" font-size="17">Rhonda  (front desk)</text>
+<text x="100" y="375" fill="#aaa" font-size="17">Ivan    (billing)</text>
+<text x="100" y="430" fill="#2f8cff" font-size="17">localhost:8080</text>
+<text x="470" y="240" fill="#2f8cff" font-size="22" font-weight="800">UBUNTU VM</text>
+<text x="470" y="270" fill="#aaa" font-size="16">bhc-mini-spark (VirtualBox)</text>
+<text x="470" y="315" fill="#fff" font-size="18">Open WebUI (chat screen)</text>
+<text x="470" y="345" fill="#aaa" font-size="16">- logins + 4 groups</text>
+<text x="470" y="370" fill="#aaa" font-size="16">- 4 document collections</text>
+<text x="470" y="395" fill="#aaa" font-size="16">- 4 role assistants</text>
+<text x="470" y="430" fill="#aaa" font-size="16">firewall on · auto updates</text>
+<text x="470" y="455" fill="#ff3b3b" font-size="16">OpenAI connection: OFF</text>
+<text x="840" y="240" fill="#fff" font-size="22" font-weight="800">AI ENGINE</text>
+<text x="840" y="270" fill="#aaa" font-size="16">Ollama on the laptop</text>
+<text x="840" y="315" fill="#fff" font-size="18">qwen2.5:3b</text>
+<text x="840" y="345" fill="#aaa" font-size="16">runs offline</text>
+<text x="840" y="370" fill="#aaa" font-size="16">answers in ~11 s</text>
+<text x="840" y="430" fill="#2bff88" font-size="16">nothing goes to the cloud</text>
+<g stroke="#2f8cff" stroke-width="4" fill="#2f8cff">
+<line x1="380" y1="335" x2="440" y2="335"/><polygon points="440,325 452,335 440,345"/>
+<line x1="750" y1="335" x2="810" y2="335"/><polygon points="810,325 822,335 810,345"/>
+</g>
+<text x="752" y="300" fill="#2f8cff" font-size="12">10.0.2.2</text>
+<text x="40" y="548" fill="#2f8cff" font-size="16">BLUE HIPPO CYBER · BHC Mini Spark Lab</text>
+</svg>

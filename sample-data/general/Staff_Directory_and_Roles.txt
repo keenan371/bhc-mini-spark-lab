@@ -1,0 +1,13 @@
+STAFF DIRECTORY AND ROLES (FICTIONAL)
+Blewitt, Again & Associates LLP
+
+Barry Blewitt, Esq. - Managing attorney. All cases, strategy, plea negotiations, court.
+Paula Paralegal - Case files, discovery requests, deadlines, client updates, hearing prep.
+Rhonda Reception - Front desk, phones, scheduling consultations, call log, walk-ins.
+Ivan Ignition - Billing and office manager. Fee agreements, invoices, payment plans, trust account.
+
+Who sees what (need-to-know):
+- Front desk: general office documents only.
+- Case staff: general + case files.
+- Billing: general + billing.
+- Attorneys: everything, including plea strategy and work product.

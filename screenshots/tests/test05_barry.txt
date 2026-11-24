@@ -1,0 +1,23 @@
+ALLOWED: attorney sees everything
+Q: Summarize the plea options for State v. Swervington and what you recommend.
+---
+Chat Conversation
+
+Summarize the plea options for State v. Swervington and what you recommend.
+
+Nov 24, 5:10 PM
+Blewitt Attorney Assistant
+
+For State v. Swervington, the possible issues are related to the field sobriety tests conducted on a sloped shoulder in the rain and the observation log showing a 14-minute gap between the field sobriety test and the breath test. The calibration records are still outstanding, and both breath results are only slightly above the legal limit (0.091 / 0.089).
+
+The plea options are:
+
+Motion to suppress the breath results (observation period, calibration).
+Negotiate a reduction to reckless driving.
+Go to trial on the field sobriety test conditions.
+Plea as charged.
+
+The recommendation is to wait for the calibration records, file the motion to suppress if supported, and then use it to negotiate option 2.
+
+18 Sources
+Nov 24, 5:10 PM

@@ -1,0 +1,14 @@
+ALLOWED: case staff reads case files
+Q: What was Chad Swervington's breath test result, and what discovery is still overdue?
+---
+Chat Conversation
+
+What was Chad Swervington’s breath test result, and what discovery is still overdue?
+
+Nov 24, 5:10 PM
+Blewitt Case Staff Assistant
+
+Chad Swervington's breath test result was 0.091 and 0.089. The discovery that is still overdue is the breath-test calibration records, which were requested on November 3, 2026, but no response was received yet.
+
+12 Sources
+Nov 24, 5:10 PM

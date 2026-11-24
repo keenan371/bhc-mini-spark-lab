@@ -1,0 +1,14 @@
+FRONT DESK PHONE SCRIPT (FICTIONAL)
+Blewitt, Again & Associates LLP
+
+1. Greeting: "Blewitt, Again and Associates, this is [your name]. How can I help you?"
+2. Get the caller's full name and best callback number.
+3. Ask: "Is this about a new arrest or an existing case?"
+4. New arrest: get the arrest date, the county, and the next court date if they have one.
+   Tell them: "There may be a short deadline to challenge a license suspension after an arrest. I'll get you on the attorney's calendar right away."
+5. Existing case: take a message for the assigned attorney or paralegal. Do not discuss case details.
+6. Caller is in jail: get the facility name and booking number, then alert the attorney immediately.
+7. Fee or payment questions: transfer to the office manager. Do not quote fees.
+8. Never give legal advice. Never confirm or deny that someone is a client.
+9. Stay polite and neutral. Do not say "happens to the best of us."
+10. Log every call in the firm's call log before the end of the day.

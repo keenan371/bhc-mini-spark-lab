@@ -1,0 +1,8 @@
+PAYMENT LOG, NOVEMBER 2026 (FICTIONAL)
+Client            Matter              Fee        Paid       Balance   Next payment
+Chad Swervington  State v. Swervington $3,500    $2,000     $1,500*   $500 due Dec 1
+Brenda Bumper     State v. Bumper      $3,500    $3,500     $0        Paid in full Nov 18
+*License hearing fee ($750) billed separately; Swervington owes $750 for it, due before Dec 4.
+Swervington total owed: $2,250.
+Owner: Ivan Ignition.
+CONFIDENTIAL: BILLING AND ATTORNEYS ONLY
