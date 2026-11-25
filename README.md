@@ -1,17 +1,28 @@
-<p align="center"><img src="assets/story/the-firm.png" alt="Blewitt, Again & Associates" width="100%"></p>
+<p align="center"><img src="assets/banner.png" alt="BHC Mini Spark Lab" width="100%"></p>
 
-# BHC Mini Spark Lab: a private AI box for law firms
+<p align="center">
+<img src="https://img.shields.io/badge/access%20tests-8%2F8%20passed-22ff7a?style=for-the-badge&labelColor=000000">
+<img src="https://img.shields.io/badge/model-qwen2.5%203B%20(local)-2f8cff?style=for-the-badge&labelColor=000000">
+<img src="https://img.shields.io/badge/chat-Open%20WebUI-ffffff?style=for-the-badge&labelColor=000000">
+<img src="https://img.shields.io/badge/status-lab%20build-ffd23f?style=for-the-badge&labelColor=000000">
+</p>
 
-**Same question. Different person. Different answer.**
+# A private AI for a law firm, tested role by role
 
-A client's mom calls a DUI law firm asking how her son's breath test came out. The receptionist, trying to help, asks the firm's AI. It answers: *"I don't have access to that information."* She takes a message for the attorney. Then the attorney asks the exact same question and gets the answer.
+**Same box. Same AI. Different access.**
 
-This repo is the full lab behind that demo. It shows how a small law firm can use AI **without client files leaving the office**, and how to set up users, groups and folder access so each person only sees what their job needs.
+The front desk asks the firm's AI for a client's breath test result. It answers: *"I don't have access to that information."* The paralegal asks the exact same question and gets **0.091**. The attorney sees everything.
 
-> Fictional firm, fictional data, educational lab. Not legal, ethics or compliance advice.
+This repo is the full lab behind that demo: one machine running an open-source AI model, a ChatGPT-style chat screen, and users, groups and folder permissions so each person only sees what their job needs. Everything here was built and tested on a laptop that plays the role of the office box.
 
+<p align="center"><img src="assets/demo.gif" alt="Front desk denied, paralegal allowed" width="320"></p>
 
-**Watch the 35-second demo:** [`video/short1_front-desk-vs-attorney.mp4`](video/short1_front-desk-vs-attorney.mp4)
+| Watch | Length | Best for |
+|---|---|---|
+| [`video/same-ai-different-access_21s.mp4`](video/same-ai-different-access_21s.mp4) | 21 s | The quick version |
+| [`video/same-ai-different-access_42s.mp4`](video/same-ai-different-access_42s.mp4) | 42 s | All 4 roles + all 8 tests |
+
+> **Lab demo. Fictional firm (Blewitt, Again & Associates), fictional data. Not legal, ethics or compliance advice.**
 
 ---
 
@@ -22,7 +33,7 @@ This repo is the full lab behind that demo. It shows how a small law firm can us
 | **United States v. Heppner** (SDNY, Feb 2026): a defendant's chats with consumer Claude were ruled **not privileged**. He used it on his own, not through his lawyer, and the tool's privacy policy said chats weren't private. | Anything staff paste into a consumer AI tool may not be protected. |
 | **8am 2026 Legal Industry Report:** 69% of legal professionals use general AI tools, but only **9%** of firms have a written, actively enforced AI policy. | Most firms are exposed right now. |
 | **ABA Formal Opinion 512 (2024):** managing lawyers must set clear AI policies and train staff. | Policy and training are expected, not optional. |
-| **Florida Bar Opinion 24-1 (2024):** lawyers should get client consent before putting confidential info into a third-party AI tool. | A box in your own office is not a third-party tool. |
+| **Florida Bar Ethics Opinion 24-1 (Jan 2024):** lawyers **may** use generative AI but must protect client confidentiality. It recommends informed client consent before using a third-party AI tool that would disclose confidential info, and notes an in-house AI that does not disclose data to a third party can ease that concern. | Where the AI runs, and who can see what, is now part of the job. |
 
 ---
 
@@ -34,7 +45,7 @@ This repo is the full lab behind that demo. It shows how a small law firm can us
 |---|---|---|
 | **VirtualBox + Ubuntu Server** | A computer running inside the laptop (`bhc-mini-spark`) | Stands in for the real box in the office |
 | **Open WebUI** | A free, open source chat screen that runs on your own machine | Looks like ChatGPT, so staff already know it. Has logins, groups and document folders built in |
-| **Ollama + Qwen 2.5 (3B)** | Free, open source AI model running locally | No subscriptions, no accounts, works with the internet off. Swap in any open model |
+| **Ollama + Qwen 2.5 (3B)** | Free, open source AI model running locally | No subscriptions, no accounts, runs on the machine itself. Swap in any open model |
 | **Lockdown** | Firewall allows 2 ports, auto security updates, public sign-up off, **OpenAI connection turned off** | Out of the box, Open WebUI had a cloud AI connection on. That's a door out of the office, so it's closed |
 
 > In this lab my laptop plays the box. A real office would use one small AI computer sized for the firm. Same software, bigger model, much faster.
@@ -111,6 +122,15 @@ All 18 sample documents are in [`sample-data/`](sample-data/), written to match 
 
 ---
 
+## Honest limits (what this lab does NOT prove yet)
+
+- **Internet-off test:** not done yet. The model runs locally and the cloud AI connection is off, but a full offline run is the next test.
+- **Small model:** qwen2.5 3B is fast enough on a laptop (about 11 s per answer) but weak at drafting. Test 6 shows it.
+- **Access is by folder and group,** plus an instruction to each assistant to answer only from its own documents. Billing's answer in test 2 was vague, not a clean refusal, but no strategy leaked.
+- **A laptop is not an office box.** A real firm would use one small AI computer sized for its staff.
+
+---
+
 ## Problems I hit (and the fixes)
 
 <p align="center"><img src="diagrams/speed-fix.svg" width="100%"></p>
@@ -120,7 +140,7 @@ All 18 sample documents are in [`sample-data/`](sample-data/), written to match 
 | VirtualBox installer froze | Windows' own virtualization (Hyper-V / Memory Integrity) was holding the CPU. Turned it off, restarted ([screenshots](screenshots/setup/)) |
 | First answer took 5 min 40 s | Two models were fighting over memory and the chat screen was stuffing extra instructions into every question. Cleaned it up and moved the AI engine to the laptop: about 11 s |
 | Staff got "model not found" | The base model has to be registered (hidden) with read access for the groups |
-| OpenAI connection on by default | Turned it off. Nothing leaves the office |
+| OpenAI connection on by default | Turned it off, so the chat screen has no built-in path to a cloud AI |
 
 The full step-by-step build guide is in [`docs/LAB_GUIDE.md`](docs/LAB_GUIDE.md), and every problem with its fix is in [`docs/LAB_LOG.md`](docs/LAB_LOG.md).
 
@@ -135,7 +155,7 @@ screenshots/    setup screens + all 8 test screenshots with full answers
 diagrams/       architecture, who-sees-what, speed fix
 assets/         the cast of Blewitt, Again & Associates
 docs/           full lab guide, lab log, brand guide
-video/          35-second demo
+video/          21 s and 42 s demos
 ```
 
 ## Meet the firm
@@ -162,4 +182,4 @@ The idea of packaging private AI with managed IT services comes from **David Lee
 
 ---
 
-**Built by [Blue Hippo Cyber](https://bluehippocyber.com).** Law firm in Lakeland, Polk County, Tampa or Orlando and want AI without client files leaving your office? Book a free 15-minute AI Governance & Compliance Check: bluehippo.cyber@gmail.com
+**Built by [Blue Hippo Cyber](https://bluehippocyber.com).** Law firm in Lakeland, Polk County, Tampa or Orlando thinking about AI? Book a free 15-minute AI setup review (technical review, not legal advice): bluehippo.cyber@gmail.com

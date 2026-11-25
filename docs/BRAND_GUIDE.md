@@ -24,7 +24,7 @@ Applies to EVERYTHING for this offer: GitHub repo, long form, every short, carou
 - Tagline: "Bad decisions. Excellent representation."
 
 ## The story (core message)
-The client's mom calls the front desk asking about her son's breath test. Rhonda asks the firm's AI. ACCESS DENIED: "I don't have access to that information." She takes a message. Barry asks the same question. ACCESS GRANTED. **Same system, same question, different person, different answer.** Files never leave the office.
+The client's mom calls the front desk asking about her son's breath test. Rhonda asks the firm's AI. ACCESS DENIED: "I don't have access to that information." She takes a message. Barry asks the same question. ACCESS GRANTED. **Same system, same question, different person, different answer.** The AI runs on the firm's own machine.
 
 ## Hard rules
 - No children. All adults.
