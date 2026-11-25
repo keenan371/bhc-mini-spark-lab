@@ -168,7 +168,7 @@ docs/           full lab guide, lab log, brand guide
 
 ## Credits
 
-The idea of packaging private AI with managed IT services comes from my coach **David Lee**, creator of [DC CyberSec](https://www.youtube.com/@dccybersec), in his video [The AI Business Model Nobody Is Talking About](https://www.youtube.com/watch?v=vFcjT8zvsIE).
+The idea of packaging private AI with managed IT services comes from my coach **David Lee**, founder of [The Safer Internet Project (TSIP)](https://www.tsip.app) and creator of [DC CyberSec](https://www.youtube.com/@dccybersec), in his video [The AI Business Model Nobody Is Talking About](https://www.youtube.com/watch?v=vFcjT8zvsIE).
 
 ## Sources
 
