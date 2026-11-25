@@ -15,12 +15,11 @@ The front desk asks the firm's AI for a client's breath test result. It answers:
 
 This repo is the full lab behind that demo: one machine running an open-source AI model, a ChatGPT-style chat screen, and users, groups and folder permissions so each person only sees what their job needs. Everything here was built and tested on a laptop that plays the role of the office box.
 
-<p align="center"><img src="assets/demo.gif" alt="Front desk denied, paralegal allowed" width="320"></p>
+| Front desk: blocked | Paralegal: allowed |
+|---|---|
+| ![front desk blocked](screenshots/tests/test01_rhonda.png) | ![paralegal allowed](screenshots/tests/test04_paula.png) |
 
-| Watch | Length | Best for |
-|---|---|---|
-| [`video/same-ai-different-access_21s.mp4`](video/same-ai-different-access_21s.mp4) | 21 s | The quick version |
-| [`video/same-ai-different-access_42s.mp4`](video/same-ai-different-access_42s.mp4) | 42 s | All 4 roles + all 8 tests |
+**Full walkthrough video:** coming soon. A start-to-finish screen recording of the build so you can follow along step by step. Until then, the written walkthrough is in [`docs/LAB_GUIDE.md`](docs/LAB_GUIDE.md).
 
 > **Lab demo. Fictional firm (Blewitt, Again & Associates), fictional data. Not legal, ethics or compliance advice.**
 
@@ -155,7 +154,6 @@ screenshots/    setup screens + all 8 test screenshots with full answers
 diagrams/       architecture, who-sees-what, speed fix
 assets/         the cast of Blewitt, Again & Associates
 docs/           full lab guide, lab log, brand guide
-video/          21 s and 42 s demos
 ```
 
 ## Meet the firm
@@ -170,7 +168,7 @@ video/          21 s and 42 s demos
 
 ## Credits
 
-The idea of packaging private AI with managed IT services comes from **David Lee ([DC CyberSec](https://www.youtube.com/@dccybersec))**, representing Australia: [The AI Business Model Nobody Is Talking About](https://www.youtube.com/watch?v=vFcjT8zvsIE).
+The idea of packaging private AI with managed IT services comes from my coach **David Lee**, creator of [DC CyberSec](https://www.youtube.com/@dccybersec), in his video [The AI Business Model Nobody Is Talking About](https://www.youtube.com/watch?v=vFcjT8zvsIE).
 
 ## Sources
 
@@ -182,4 +180,4 @@ The idea of packaging private AI with managed IT services comes from **David Lee
 
 ---
 
-**Built by [Blue Hippo Cyber](https://bluehippocyber.com).** Law firm in Lakeland, Polk County, Tampa or Orlando thinking about AI? Book a free 15-minute AI setup review (technical review, not legal advice): bluehippo.cyber@gmail.com
+**Built by [BlueHippoCyber](https://bluehippocyber.com).** Law firm in Lakeland, Polk County, Tampa or Orlando thinking about AI? Book a free 15-minute AI setup review (technical review, not legal advice): bluehippo.cyber@gmail.com
